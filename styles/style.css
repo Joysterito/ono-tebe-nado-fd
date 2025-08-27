@@ -121,3 +121,125 @@
   border: 1px solid #FFFFFF;
   padding: 12px 32px;
 }
+
+.lots {
+  box-sizing: border-box;
+  height: 723px;
+  margin: 0 24px 120px;
+}
+
+.lots__heading {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-left: 40px;
+  padding-bottom: 27px;
+
+}
+
+.lots__list {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+  text-decoration: none
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  z-index: -1;
+  padding: 48px 40px;
+  /*text-decoration: none;*/
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.card__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #FFFFFF;
+}
+
+.lots__look-more-link {
+  margin-left: 40px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 334px 1fr;
+    gap: 25px;
+    margin: 0 24px 180px 24px;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000000;
+  margin-top: 35px;
+  margin-left: 47px;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+}
+
+.about__title {
+  margin-top: 136px;
+  margin-bottom: 100px;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000000;
+  
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 20px;
+  line-height: 24px;
+}
