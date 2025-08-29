@@ -13,8 +13,8 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li class="header__menu-item_active">
-            <a class="header__menu-link" href="#0">главная</a>
+          <li class="header__menu-item header__menu-item_nomarker">
+            <a class="header__menu-link header__menu-link_active" href="#0">главная</a>
           </li>
           <li class="header__menu-item">
             <a class="header__menu-link" href="#0">посмотреть лоты</a>
@@ -24,7 +24,7 @@
           </li>          
         </ul>
       </nav>
-      <a class="header__logo" href="#0" rel="icon">
+      <a class="header__logo" href="#" rel="icon">
         <img
           class="header__logo-image"
           src="./images/logo-black.svg"
@@ -45,11 +45,11 @@
     </header>
     <main>
       <section class="cover">
-        <div class="cover__overlay"></div>
+        <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="aligned-text aligned-text_left">ОНО</span>
-          <span class="aligned-text aligned-text_center">ТЕБЕ</span>
-          <span class="aligned-text aligned-text_right">НАДО</span>
+          <span class="aligned-text aligned-text_left">оно</span>
+          <span class="aligned-text aligned-text_center">тебе</span>
+          <span class="aligned-text aligned-text_right">надо</span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
@@ -64,7 +64,7 @@
           <li class="lots__card-list-item">
             <a class="card-link" href="#">
               <article class="card card_type_film">
-                <div class="cover__overlay"></div>
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -79,7 +79,7 @@
           <li class="lots__card-list-item">
             <a class="card-link" href="#">
               <article class="card card_type_book">
-                <div class="cover__overlay"></div>
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -97,7 +97,7 @@
           <li class="lots__card-list-item">
             <a class="card-link" href="#">
               <article class="card card_type_picture">
-                <div class="cover__overlay"></div>
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -115,9 +115,9 @@
       </section>
       <section class="about">
         <div class="about__logo">
-          <img class="about__logo-image" src="./images/logo-white.svg" alt="" />
+          <img class="about__logo-image" src="./images/logo-white.svg" alt="лого оно тебе надо" />
         </div>
-        <div class="about__column">
+        <article class="about__column">
           <h2 class="about__title">Об аукционе</h2>
           <div class="about__text">
             <p>
@@ -137,7 +137,7 @@
               лоты стали культовыми.
             </p>
           </div>
-        </div>
+        </article>
       </section>
     </main>
     <footer class="footer">
@@ -169,7 +169,7 @@
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#">
+          <a class="footer__social-link" href="#" target="_blank">
             <img
               class="footer__social-icon"
               src="./images/yt.svg"
@@ -178,7 +178,7 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#">
+          <a class="footer__social-link" href="#" target="_blank">
             <img
               class="footer__social-icon"
               src="./images/vk.svg"
@@ -187,7 +187,7 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#">
+          <a class="footer__social-link" href="#" target="_blank">
             <img
               class="footer__social-icon"
               src="./images/pinterest.svg"
