@@ -36,7 +36,7 @@
   line-height: 1;
 }
 
-.header__adress {
+.header__address {
   display: flex;
   flex-direction: column;
   max-width: 240px;
@@ -44,7 +44,7 @@
   align-items: flex-start;
 }
 
-.adress {
+.address {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -259,7 +259,7 @@
   padding: 0px 50px 82px;
 }
 
-.footer__adress {
+.footer__address {
   display: flex;
   flex-direction: column;
   justify-self: flex-start;
