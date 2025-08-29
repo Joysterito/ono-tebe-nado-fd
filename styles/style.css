@@ -190,6 +190,7 @@
   font-size: 22px;
   line-height: 1.2;
   text-decoration-line: underline;
+  text-underline-offset: 3px;
   text-transform: uppercase;
   color: #ffffff;
   position: relative;
